@@ -66,3 +66,4 @@ mongodb:!::mongodb
 epmd:!::
 postgres:!::
 redis:!::
+rabbitmq:!::

@@ -23,6 +23,7 @@ at-spi2-core					install
 audacious					install
 audacious-plugins:amd64				install
 audacious-plugins-data				install
+aufs-tools					install
 autoconf					install
 automake					install
 autopoint					install
@@ -45,6 +46,7 @@ busybox-initramfs				install
 busybox-static					install
 bzip2						install
 ca-certificates					install
+cgroupfs-mount					install
 command-not-found				install
 command-not-found-data				install
 console-setup					install
@@ -91,6 +93,7 @@ dmidecode					install
 dmsetup						install
 dmz-cursor-theme				install
 dnsutils					install
+docker-ce					install
 dosfstools					install
 dpkg						install
 dpkg-dev					install

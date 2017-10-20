@@ -66,3 +66,4 @@ mongodb:x:125:mongodb
 epmd:x:126:
 postgres:x:127:
 redis:x:128:
+rabbitmq:x:129:
