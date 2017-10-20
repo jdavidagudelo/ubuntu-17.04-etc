@@ -488,6 +488,7 @@ application/x-archive; file-roller %s; test=test -n "$DISPLAY"
 application/vnd.ms-cab-compressed; file-roller %s; test=test -n "$DISPLAY"
 application/vnd.debian.binary-package; file-roller %s; test=test -n "$DISPLAY"
 application/gzip; file-roller %s; test=test -n "$DISPLAY"
+text/plain; gedit --new-document %s; test=test -n "$DISPLAY"
 x-scheme-handler/appstream; gnome-software %s; test=test -n "$DISPLAY"
 x-scheme-handler/apt; gnome-software %s; test=test -n "$DISPLAY"
 inode/directory; pcmanfm %s; test=test -n "$DISPLAY"
@@ -513,6 +514,10 @@ text/x-c++; vim %s; needsterminal
 application/x-cd-image; xfburn -i %s; test=test -n "$DISPLAY"
 x-content/audio-cdda; xfburn -i %s; test=test -n "$DISPLAY"
 x-content/blank-cd; xfburn -i %s; test=test -n "$DISPLAY"
+x-scheme-handler/ghelp; yelp %s; test=test -n "$DISPLAY"
+x-scheme-handler/help; yelp %s; test=test -n "$DISPLAY"
+x-scheme-handler/info; yelp %s; test=test -n "$DISPLAY"
+x-scheme-handler/man; yelp %s; test=test -n "$DISPLAY"
 text/plain; view %s; edit=vim %s; compose=vim %s; test=test -x /usr/bin/vim; needsterminal
 application/zip; unzip -l %s; nametemplate=%s.zip; copiousoutput
 text/plain; view %s; edit=vi %s; compose=vi %s; needsterminal
