@@ -35,4 +35,6 @@ mongodb:x:114:65534::/home/mongodb:/bin/false
 epmd:x:115:126::/var/run/epmd:/bin/false
 postgres:x:116:127:PostgreSQL administrator,,,:/var/lib/postgresql:/bin/bash
 redis:x:117:128::/var/lib/redis:/bin/false
-rabbitmq:x:118:129::/var/lib/rabbitmq:/bin/false
+rabbitmq:x:118:129:RabbitMQ messaging server,,,:/var/lib/rabbitmq:/bin/false
+ntp:x:119:130::/home/ntp:/bin/false
+cassandra:x:120:131::/var/lib/cassandra:/bin/false

@@ -68,3 +68,5 @@ postgres:x:127:
 redis:x:128:
 rabbitmq:x:129:
 docker:x:999:
+ntp:x:130:
+cassandra:x:131:
