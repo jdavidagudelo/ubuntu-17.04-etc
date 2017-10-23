@@ -46,6 +46,8 @@ busybox-initramfs				install
 busybox-static					install
 bzip2						install
 ca-certificates					install
+ca-certificates-java				install
+cassandra					deinstall
 cgroupfs-mount					install
 command-not-found				install
 command-not-found-data				install
@@ -287,6 +289,7 @@ isc-dhcp-client					install
 isc-dhcp-common					install
 iso-codes					install
 iw						install
+java-common					install
 javascript-common				install
 kbd						install
 kerneloops-daemon				install
@@ -780,6 +783,7 @@ libopencv-imgproc2.4v5:amd64			install
 libopenjp2-7:amd64				install
 libopenjp2-7-dev				install
 libopenmpt0:amd64				install
+libopts25:amd64					install
 libopus0:amd64					install
 liborc-0.4-0:amd64				install
 libots0						install
@@ -1354,8 +1358,10 @@ nodejs						install
 notification-daemon				install
 nplan						install
 ntfs-3g						install
+ntp						install
 obconf						install
 openbox						install
+openjdk-8-jre-headless:amd64			install
 openprinting-ppds				install
 openssh-client					install
 openssl						install
